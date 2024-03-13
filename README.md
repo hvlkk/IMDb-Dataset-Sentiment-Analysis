@@ -6,9 +6,9 @@
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Project Structure](#project-structure)
-    - [Part A: Custom Bernoulli Naive Bayes implementation](#part-a-custom-bernoulli-naive-bayes-implementation)
+    - [Part A: Custom Bernoulli Naive Bayes Implementation](#part-a-custom-bernoulli-naive-bayes-implementation)
     - [Part B: Comparison with Scikit-learn's Bernoulli Naive Bayes](#part-b-comparison-with-scikit-learns-bernoulli-naive-bayes)
-    - [Part C: Custom RNN implementation](#part-c-custom-rnn-implementation)
+    - [Part C: Custom RNN Implementation](#part-c-custom-rnn-implementation)
   - [Installation](#installation)
   - [License](#license)
 
@@ -20,7 +20,7 @@ This project was developed as part of the second assignment for the Artificial I
 
 The project is split into three major parts:
 
-### Part A: Custom Bernoulli Naive Bayes implementation
+### Part A: Custom Bernoulli Naive Bayes Implementation
 
 For the first part of the project, the data is fetched from Keras and the necessary preprocessing steps are taken. Afterwards, a custom implementation of the multivariate variant of Bernoulli Naive Bayes is developed, making use of logarithmic probabilities. The algorithm's performance is then evaluated using accuracy, precision, recall, and F1-score. Subsequently, the evaluation results are visualised through classification reports, confusion matrix heatmaps, metric tables with precise scores, and learning curves for each metric.
 
@@ -28,7 +28,7 @@ For the first part of the project, the data is fetched from Keras and the necess
 
 For the second part of the project, the Bernoulli Naive Bayes estimator developed during the first part of the project has its performance compared against Scikit-learn's Bernoulli Naive Bayes. Their performances are visualised using classification reports, metric tables for exact scores (including differences between the two algorithms), and learning curves displaying their respective metric scores.
 
-### Part C: Custom RNN implementation
+### Part C: Custom RNN Implementation
 
 For the third part of the project, a rudimentary bi-directional RNN with GRU cells and an optional self-attention layer was developed. An instance of the RNN is then initialized, and loss over epochs is calculated and plotted in the form of a curve. Following that, the RNN's performance is evaluated by assessing its accuracy, precision, recall, and F1-score, and the scores are compared against the scores of the custom Bernoulli Naive Bayes algorithm developed in the first part of the project.
 
