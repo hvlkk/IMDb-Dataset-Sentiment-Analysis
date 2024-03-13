@@ -34,20 +34,20 @@ For the third part of the project, a rudimentary bi-directional RNN with GRU cel
 
 ## Installation
 
-All the code cells have already been executed, so one can simply browse through `imdb_sentiment_analysis.ipynb` and inspect the code without having to install/execute anything. Regardless, if you would like to install the project and run it anew, you should follow the steps below:
+All the code cells have already been executed, so you can simply browse through `imdb_sentiment_analysis.ipynb` and inspect the code without having to install/execute anything. Regardless, if you would like to install the project and run it anew, you should follow the steps below:
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Create and activate a virtual environment using a tool like conda (optional but recommended).
+3. Create and activate a virtual environment using a tool like venv or conda (optional but recommended).
    1. Install pip if it is not installed by default upon the creation of the virtual environment.
-4. Ensure the version of python you are using is compatible with Tensorflow, as it is used throughout this project. As of the time of writing this, Tensorflow only works with Python versions that are >=3.7 and \<3.11. The project has been confirmed to work on Python 3.9.18.
-5. Install the required dependencies:
+4. Ensure the version of Python you are using is compatible with Tensorflow, as it is used throughout this project. As of the time of writing this, Tensorflow only works with Python versions that are >=3.7 and \<3.11. The project has been confirmed to work on Python 3.9.18.
+5. Install the required dependencies. The dependencies should be installed through pip even if you opted to use a conda environment in the previous step, as many of the dependencies are not available on conda under the specific versions listed. You can install the requirements like so:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-6. Open `imdb_sentiment_analysis.ipynb` and ensure the first code cell (which contains all the necessary imports necessary for the project) executes without issues.
+6. Open `imdb_sentiment_analysis.ipynb` and ensure the first code cell (which contains all the imports that are necessary for the project) executes without issues.
 7. You're ready to execute the rest of the code in the notebook.
 
 Be warned that depending on your machine, some code cells (especially the ones in the RNN section of the project) might take a long time to execute, and even more so if you tweak the code and make it more complex (e.g. add more layers to the RNN and/or add more train epochs).
