@@ -41,7 +41,7 @@ All the code cells have already been executed, so you can simply browse through 
 3. Create and activate a virtual environment using a tool like venv or conda (optional but recommended).
    1. Install pip if it is not installed by default upon the creation of the virtual environment.
 4. Ensure the version of Python you are using is compatible with Tensorflow, as it is used throughout this project. As of the time of writing this, Tensorflow only works with Python versions that are >=3.7 and \<3.11. The project has been confirmed to work on Python 3.9.18.
-5. Install the required dependencies. The dependencies should be installed through pip even if you opted to use a conda environment in the previous step, as many of the dependencies are not available on conda under the specific versions listed. You can install the requirements like so:
+5. Install the required dependencies. Regardless of the Python environment management you may have opted to use in step 3, the dependencies should be installed through pip, as many of the dependencies included are unavailable on tools like conda under the specific versions listed. You can install the requirements like so:
 
    ```bash
    pip install -r requirements.txt
